@@ -1,0 +1,73 @@
+.projects-page {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 60px 0;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  
+  .project-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .project-gallery img {
+    height: 250px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-description {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .project-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    min-height: 70vh;
+  }
+  
+  
